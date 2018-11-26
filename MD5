@@ -1,6 +1,6 @@
-3db06db824f3dec75552b05621cc0b8b *ChangeLog
-0f4aa92b99486bda48fcd7fdd50cef81 *DESCRIPTION
-b6fc05b2345efccaa4c9e1d1c537731f *NAMESPACE
+a63bc2f57b82a455e996481ca59d3879 *ChangeLog
+700648af98d27ca7b02519acc18b27e0 *DESCRIPTION
+8dea469a2ec9fce562fa7e29999f5143 *NAMESPACE
 820966a7ebc6d16769c83cb0a6875767 *R/dnl.R
 c9d7d93cb469574cc853b05ead091cbd *R/millsRatio.R
 4308f30f4a2bdc2192dc4981c6ebd476 *R/nlCheckPars.R
@@ -10,7 +10,7 @@ be1eb911f8cfe7e01a933521e626f255 *R/nlFit.R
 5417be5067c813f763e49a2e1743b9ad *R/qqnl.R
 ea88b0525bdb01c6241ca8db896db840 *R/summary.nlFit.R
 f712aa9f04fb2a106057340c2863456f *TODO
-c46169130181074dd9dcf3c85b76819a *inst/unitTests/Makefile
+10c22895f073ac20b7c5e166994cf17e *inst/unitTests/Makefile
 043d21f9d7419c80f877c5102ad399cb *inst/unitTests/runTests.R
 88fef7094a465c123e61b52b25c4bf41 *inst/unitTests/runit.dnl.R
 75de5f9776bb125d29f27bb64dae8061 *inst/unitTests/runit.millsRatio.R
