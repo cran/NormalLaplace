@@ -7,13 +7,31 @@ importFrom("graphics", "abline", "curve", "hist", "hist.default",
 importFrom("stats", "dnorm", "na.omit", "nlm", "nlminb", "optim",
            "pnorm", "ppoints", "rnorm", "splinefun", "uniroot", "var")
 
-importFrom(DistributionUtils, logHist)
-importFrom(DistributionUtils, safeIntegrate)
-importFrom(DistributionUtils, momIntegrated, momChangeAbout)
-importFrom(DistributionUtils, skewness, kurtosis)
-importFrom(DistributionUtils, besselRatio, is.wholenumber)
-importFrom(DistributionUtils, tsHessian)
-importFrom(GeneralizedHyperbolic, rskewlap)
+exportPattern("nl")
+export(millsR)
+
+importFrom("grDevices", dev.interactive)
+
+importFrom("graphics", abline, curve, hist, hist.default, par, plot, title)
+
+importFrom("stats", dnorm, na.omit, nlm, nlminb, optim,
+           pnorm, ppoints, rnorm, splinefun, uniroot, var)
+
+importFrom("DistributionUtils",
+           besselRatio, is.wholenumber,
+           logHist,
+           momIntegrated, momChangeAbout, safeIntegrate,
+           skewness, kurtosis,
+           tsHessian)
+
+importFrom("GeneralizedHyperbolic", rskewlap)
+
+## ------------- Exports ---------------------------------------
+
+exportPattern("nl") ## "Pattern" FIXME: rather not the S3 methods below
+export(millsR)
+
+
 
 ################################################
 ## S3 classes
